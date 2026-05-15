@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f2937;
+  font-family: 'Segoe UI', 'PingFang SC', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f8fafc, #eef2ff);
+}
+
+input, button {
+  font: inherit;
+}
